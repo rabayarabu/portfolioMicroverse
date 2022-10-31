@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: blue;
+  height: 2rem;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+ul {
+  margin: 0;
+  height: 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+  font-size: large;
+}
+
+#welcome-section,
+#projects {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+#projects {
+  background-color: lightblue;
+}
+
+#projects > h2 > a {
+  color: darkblue;
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+footer > p > a {
+  color: black;
+  text-decoration: underline;
+}
