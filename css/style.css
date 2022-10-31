@@ -34,10 +34,13 @@ a {
   justify-content: center;
   align-items: center;
   background-color: beige;
+  flex-direction: column;
+  
 }
 
 #projects {
   background-color: lightblue;
+  
 }
 
 #projects > h2 > a {
@@ -45,6 +48,29 @@ a {
   font-size: 36px;
   text-decoration: underline;
 }
+
+@media screen and (min-width:600px) {
+  #cards{
+    width: 600px;
+  }
+
+  
+}
+#cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.card{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  text-align:center;
+
+}
+
+
 
 footer {
   display: flex;
